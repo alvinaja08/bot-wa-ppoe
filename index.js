@@ -1,7 +1,8 @@
-const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = require("@whiskeysockets/baileys")
+const { default: makeWASocket, useMultiFileAuthState } = require("@whiskeysockets/baileys")
 const { RouterOSClient } = require("routeros-client")
 const QRCode = require('qrcode')
 const fs = require('fs')
+const qrcode = require('qrcode-terminal')
 
 // DATABASE SIMPLE (nanti ganti Supabase)
 let db = {
