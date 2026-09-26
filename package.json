@@ -1,0 +1,13 @@
+{
+  "name": "bot-wa-ppoe",
+  "main": "index.js",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "qrcode": "^1.5.3",
+    "routeros-client": "^2.0.1",
+    "pino": "^8.16.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
