@@ -1,5 +1,5 @@
 {
-  "name": "bot-wa",
+  "name": "bot-wa-ppoe",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.8",
+    "@supabase/supabase-js": "^2.39.0",
     "pino": "^8.17.0",
     "qrcode": "^1.5.3",
     "qrcode-terminal": "^0.12.0",
