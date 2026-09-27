@@ -2,9 +2,7 @@
   "name": "bot-wa-ppoe",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "scripts": { "start": "node index.js" },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.0",
     "routeros-client": "^2.0.0",
